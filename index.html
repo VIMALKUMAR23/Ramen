@@ -1,13 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramen</title>
+  <link rel="icon" type="image/png" href="/sushi.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <h4>Ramen</h4>
+        <div class="header__logo-overlay"></div>
+      </div>
+      <!-- menu for large device  -->
+      <ul class="header__menu">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about-us">About us</a>
+        </li>
+        <li>
+          <img src="assets/search.svg" alt="search">
+        </li>
+      </ul>
+      <!-- menu for mobile device  -->
+      <ul class="header__menu-mobile">
+        <li>
+          <img src="assets/menu.svg" alt="menu">
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+  <script src="js/script.js"  type="module"></script>
+</body>
 </html>
