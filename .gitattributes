@@ -1,0 +1,10 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Specific handling for common web development file types
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+*.vue text
